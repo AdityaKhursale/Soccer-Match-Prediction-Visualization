@@ -119,5 +119,5 @@ class MatchResultPredictDataAggregator(object):
 
 if __name__ == "__main__":
     print("Starting...")
-    dataAggregator = MatchResultPredictDataAggregator(EuropeanSoccerDatabase())
-    dataAggregator.aggregate()
+    # dataAggregator = MatchResultPredictDataAggregator(EuropeanSoccerDatabase())
+    # dataAggregator.aggregate()

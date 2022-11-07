@@ -24,7 +24,7 @@ class SqliteHelper(DatabaseHelper):
 
     def connect(self, database_name):
         try:
-            self.connection = sqlite3.connect(database_name)
+            self.connection = sqlite3.connect(database_name,check_same_thread = False)
         except Exception:
             logging.error(traceback.format_exc())
             return False
