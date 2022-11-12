@@ -4,6 +4,8 @@ from PIL import Image
 from math import pi
 import os
 import matplotlib.pyplot as plt
+import sys
+sys.path.append(os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
 
 from shared.constants import RESOURCES_DIR
 
