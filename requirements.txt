@@ -1,0 +1,8 @@
+pillow==8.3.2
+scikit-learn=0.24.2
+matplotlib==3.4.3
+pandas==1.5.1
+numpy==1.21.3
+seaborn==0.11.2
+sqlite==3.36.0
+streamlit==1.2.0
