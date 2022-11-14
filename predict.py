@@ -137,7 +137,6 @@ if __name__ == "__main__":
     labels = features.loc[:, "label"]
     features = features.drop("match_api_id", axis=1)
     features = features.drop("label", axis=1)
-
     xTrain, xTest, yTrain, yTest = model_selection.train_test_split(
         features, labels
     )
